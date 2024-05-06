@@ -1,0 +1,59 @@
+.nav-container {
+  border: 1px solid #eaeaea;
+  width: 97%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  height: 4.6rem;
+  border-radius: 50px;
+  margin-top: 1.4rem;
+  gap: 55rem;
+}
+
+.brand-name {
+  width: 127.94px;
+  height: 47.39px;
+  opacity: 0px;
+}
+
+.brand-name img {
+  width: 121px;
+  height: 30.5px;
+  opacity: 0px;
+  color: #333333;
+  padding-top: 0.3rem;
+  margin-left: 1.2rem;
+}
+
+.button-list {
+  display: flex;
+  gap: 0.5rem;
+  /* margin-left: 0.4rem; */
+}
+
+.get-projects-btn {
+  border: 1px solid #eaeaea;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  text-align: center;
+  width: 9.7rem;
+  height: 46px;
+  background: #ffffff;
+  border-radius: 50px;
+}
+.onboard-btn {
+  border: 1px solid black;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  text-align: center;
+  width: 9.8rem;
+  height: 46px;
+  border-radius: 50px;
+  background: #1c1c1c;
+  color: white;
+}

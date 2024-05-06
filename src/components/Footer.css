@@ -1,0 +1,33 @@
+footer {
+  height: 5rem;
+  gap: 0px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+  background: #f5f5f5;
+  margin: 1.3rem;
+  text-align: center;
+  font-family: Manrope;
+}
+.left-footer {
+  display: flex;
+  margin: auto 3rem;
+}
+
+.left-footer i {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 1.2rem;
+}
+
+.right-footer {
+  display: flex;
+  margin: auto 3rem;
+  display: flex;
+  gap: 2rem;
+}
+.right-footer p,
+a {
+  color: #2d2c2c;
+}
