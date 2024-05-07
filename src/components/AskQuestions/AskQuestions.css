@@ -1,22 +1,23 @@
 .askQuestion-container {
   width: 1376px;
   /* height: 600px; */
-  margin: 2rem;
-  margin-bottom: 4rem;
+  margin: 1.4rem;
+  margin-bottom: 3rem;
   gap: 0px;
   border-radius: 2rem;
   opacity: 0px;
   background: #e8eee7;
   display: flex;
+  font-family: Manrope;
 }
 .left-side {
   width: 46%;
   /* height: 111px; */
 }
 .top-left {
-  font-family: Shadows Into Light;
+  font-family: Covered By Your Grace;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 35.2px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -33,9 +34,8 @@
   letter-spacing: -0.01em;
   text-align: left;
   color: #1c1c1c;
-  margin: 0.2rem 6rem;
+  margin: 0 6rem;
 }
-
 .right-side {
   width: 54%;
   /* height: 538px; */
@@ -51,19 +51,32 @@
 
 .question p {
   font-family: Manrope;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   text-align: left;
+  width: 39rem;
 }
-.question i{
-    padding-top: 1.2rem;
+.question i {
+  padding-top: 1.2rem;
+  font-size: 14px;
+  padding-right: 4px;
 }
-.question .answer{
-    font-size: 14px;
-    color: #617275;
-    font-weight: 500;
-    letter-spacing: 0.75px;
+.question .answer {
+  font-size: 14px;
+  color: #617275;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  margin-top: 6px;
 }
-hr{
-    color: #D7D7D7;
+.ques-ans {
+  display: flex;
+  gap: 1rem;
+}
+.ques-ans i {
+  font-size: 14px;
+}
+hr {
+  color: #d7d7d7;
+  margin: 6px 0;
+  opacity: 0.5;
 }

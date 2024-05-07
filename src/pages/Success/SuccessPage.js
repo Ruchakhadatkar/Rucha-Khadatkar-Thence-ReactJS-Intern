@@ -10,7 +10,7 @@ const SuccessPage = () => {
         <img src={brunelimg} alt="" />
       </div>
       <div className="main-container">
-        <img src={checkBox} alt="" />
+        <img src={checkBox} alt="sucess-info" />
         <p className="status-success">success submitted</p>
         <p className="cong">Congratulations</p>
         <p className="message">

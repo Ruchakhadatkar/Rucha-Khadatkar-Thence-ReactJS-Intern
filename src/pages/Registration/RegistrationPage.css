@@ -3,6 +3,7 @@
   height: 800px;
   opacity: 0px;
   background-color: #ffffff;
+  font-family: Manrope;
 }
 .nav {
   padding: 2.4rem 3.8rem;
@@ -22,38 +23,39 @@
 }
 form {
   text-align: center;
-  margin-top: 3.8rem;
+  margin-top: 3.6rem;
 }
 .head p {
-  /* font-family: LD Dear Miss Rose; */
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 39.6px;
-  letter-spacing: -0.02em;
-  color: #2da950;
-  margin-top: 1.2rem;
-  margin-bottom: 0;
   font-family: Covered By Your Grace;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 39.6px;
+  /* letter-spacing: -0.02em; */
+  color: #2da950;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
 }
 .heading p {
   font-family: Manrope;
-  font-size: 42px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
+  font-size: 40px;
+  font-weight: 600;
   text-align: center;
+  color: #1c1c1c;
+  margin: 0;
+  letter-spacing: -0.02em;
   width: 21rem;
   margin: 0 auto;
-  /* line-height: 1rem; */
+  line-height: 1.2;
 }
 .inputs {
   margin: 2rem auto;
-  margin-top: 2.8rem;
+  margin-top: 3rem;
 }
 input {
   margin: 1rem auto;
   text-align: left;
   display: block;
-  width: 15.4rem;
+  width: 16.4rem;
   height: 3.2rem;
   gap: 0px;
   opacity: 0px;
@@ -63,13 +65,13 @@ input {
   outline: none;
   background: #efefef;
   padding-left: 1.4rem;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 button {
   background-color: #c9c9c9;
   display: block;
-  width: 16.4rem;
+  width: 17rem;
   height: 3.2rem;
   gap: 0px;
   opacity: 0px;
@@ -77,6 +79,6 @@ button {
   border-radius: 50px;
   border: none;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
   margin: auto;
 }

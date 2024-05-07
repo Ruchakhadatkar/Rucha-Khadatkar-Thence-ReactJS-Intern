@@ -1,7 +1,7 @@
 import React from "react";
 import "./AskQuestions.css";
 import { FaPlus } from "react-icons/fa6";
-import { FaMinus } from "react-icons/fa";
+import { FaMinus } from "react-icons/fa6";
 
 const AskQuestions = () => {
   return (
@@ -31,14 +31,13 @@ const AskQuestions = () => {
 
         <div className="question">
           <div className="QandA">
-            <div className="question">
+            <div className="question ques-ans">
               {" "}
               <p>Can I hire multiple talents at once?</p>
               <i>
                 <FaMinus />
               </i>
             </div>
-
             <p className="answer">
               If unhappy with a project, communicate with the freelancer, allow
               for revisions, and refer to the agreement. Escalate to platform

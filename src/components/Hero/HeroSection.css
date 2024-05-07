@@ -1,0 +1,162 @@
+.hero-container {
+  margin: 3rem;
+  border: 1px solid black;
+  font-family: Manrope;
+}
+.top-hero .head p {
+  font-family: Covered By Your Grace;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 39.6px;
+  /* letter-spacing: -0.02em; */
+  color: #2da950;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+.top-hero .heading p {
+  font-family: Manrope;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  color: #1c1c1c;
+  margin: 0;
+  letter-spacing: -0.02em;
+  width: 28rem;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+.bottom-hero {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+/* .image{
+    border: 2px solid yellow;
+    width: 506px;
+    height: 540px;
+} */
+.image img {
+  width: 22.8rem;
+  height: 23.8rem;
+  border-radius: 30px;
+  position: relative;
+  margin-left: 5rem;
+  z-index: 1;
+}
+
+.box-percent {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 25.6rem;
+  left: 9.6rem;
+  width: 12.6rem;
+  height: 10.4rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
+  z-index: 2;
+}
+.box-percent h5 {
+  font-size: 32px;
+  margin: 14px 24px;
+  margin-bottom: 10px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+.box-percent p {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: 23.4px; */
+  text-align: left;
+  width: 10rem;
+  margin: 0 24px;
+}
+
+.days-box {
+  /* border: 1px solid blue; */
+  position: absolute;
+  top: 39.6rem;
+  left: 14rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
+  z-index: 2;
+  width: 11.2rem;
+  height: 3.8rem;
+}
+.days-box i {
+  color: #2da950;
+  background-color: #ddefe0;
+  border-radius: 50px;
+  margin-top: 11px;
+  height: 20px;
+  font-size: 18px;
+  padding: 8px;
+}
+.text h4 {
+  margin: 0;
+  margin-top: 6px;
+  font-weight: 800;
+  color: #1c1c1c;
+  font-size: 18px;
+}
+.text p {
+  font-size: 14px;
+  margin: 0;
+  color: #828282;
+}
+
+.doller-box {
+  border: 1px solid black;
+  width: 10rem;
+  position: absolute;
+}
+
+.right p {
+  font-family: Manrope;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1c1c1c;
+  margin: 0;
+  letter-spacing: -0.02em;
+  width: 19rem;
+  margin: 0 auto;
+  line-height: 1.2;
+  text-align: left;
+}
+.dots {
+  margin-top: 2.6rem;
+  font-size: 1.2rem;
+}
+.green-dot {
+  color: #2da950;
+}
+.gray-dot {
+  color: #e4e3e3;
+}
+.explore-btn {
+  border: 1px solid black;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24.59px;
+  text-align: center;
+  width: 10rem;
+  height: 48px;
+  border-radius: 50px;
+  background: #1c1c1c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 5rem 0;
+}
+.explore-btn i {
+  margin-top: 8px;
+  font-size: 18px;
+}
