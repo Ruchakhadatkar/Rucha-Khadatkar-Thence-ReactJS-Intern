@@ -1,0 +1,82 @@
+.container-registration {
+  width: 1440px;
+  height: 800px;
+  opacity: 0px;
+  background-color: #ffffff;
+}
+.nav {
+  padding: 2.4rem 3.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav img {
+  height: 28px;
+}
+.nav i {
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #cacaca;
+  border-radius: 50%;
+  padding: 0.5rem 0.8rem;
+  padding-top: 0.7rem;
+}
+form {
+  text-align: center;
+  margin-top: 3.8rem;
+}
+.head p {
+  /* font-family: LD Dear Miss Rose; */
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  color: #2da950;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  font-family: Covered By Your Grace;
+}
+.heading p {
+  font-family: Manrope;
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: center;
+  width: 21rem;
+  margin: 0 auto;
+  /* line-height: 1rem; */
+}
+.inputs {
+  margin: 2rem auto;
+  margin-top: 2.8rem;
+}
+input {
+  margin: 1rem auto;
+  text-align: left;
+  display: block;
+  width: 15.4rem;
+  height: 3.2rem;
+  gap: 0px;
+  opacity: 0px;
+  color: #827a7a;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #efefef;
+  padding-left: 1.4rem;
+  font-size: 15px;
+}
+
+button {
+  background-color: #c9c9c9;
+  display: block;
+  width: 16.4rem;
+  height: 3.2rem;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin: auto;
+}

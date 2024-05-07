@@ -1,0 +1,62 @@
+.success-container {
+  width: 1440px;
+  height: 800px;
+  opacity: 0px;
+  background-color: #ffffff;
+}
+.nav {
+  text-align: left;
+  padding: 2.4rem 3.8rem;
+}
+
+.nav img {
+  height: 28px;
+  /* width: 116px; */
+}
+
+.main-container {
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-container img {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.status-success {
+  font-family: LD Dear Miss Rose;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  color: #2da950;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+}
+.cong {
+  font-family: Manrope;
+  font-size: 44px;
+  font-weight: 600;
+  text-align: center;
+  color: #1c1c1c;
+  margin: 0;
+}
+.message {
+  color: #727272;
+  width: 27rem;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 17px;
+  display: inline-block;
+  margin: 0.6rem;
+}
+.end-message {
+  margin-top: 13.6rem;
+  color: #727272;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.end-message span {
+  color: black;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}

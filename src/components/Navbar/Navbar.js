@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import brunelName from "../Assets/brunel-name.png";
+import brunelName from "../../Assets/brunel-name.png";
 
 const Navbar = () => {
   return (
