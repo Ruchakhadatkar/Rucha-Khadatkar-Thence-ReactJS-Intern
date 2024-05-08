@@ -2,15 +2,28 @@ import React from "react";
 import "./RegistrationPage.css";
 import brunelImg from "../../Assets/brunel-name.png";
 import { RxCross1 } from "react-icons/rx";
+import { useNavigate } from "react-router-dom";
 
 const RegistrationPage = () => {
+  const navigate = useNavigate();
+
+  const handleSuccess = () => {
+    navigate("/success");
+  };
+
+  const handleClose = () => {
+    navigate("/");
+  };
+
   return (
     <div className="container-registration">
       <div className="nav">
         <img src={brunelImg} alt="" />
-        <i>
-          <RxCross1 />
-        </i>
+        <div className="close" onClick={handleClose}>
+          <i>
+            <RxCross1 />
+          </i>
+        </div>
       </div>
       <form>
         <div className="head">
@@ -23,7 +36,7 @@ const RegistrationPage = () => {
           <input type="text" placeholder="Enter your name" />
           <input type="text" placeholder="Enter your email" />
         </div>
-        <button>Submit</button>
+        <button onClick={handleSuccess}>Submit</button>
       </form>
     </div>
   );

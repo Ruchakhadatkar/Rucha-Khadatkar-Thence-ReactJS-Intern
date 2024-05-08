@@ -39,9 +39,9 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="doller-box">
-            <p>
+            <div className="value">
               <span>$0.5</span> MILLION{" "}
-            </p>
+            </div>
             <p>
               Reduced client expenses by saving on hiring and employee costs.
             </p>

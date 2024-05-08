@@ -1,11 +1,11 @@
 .hero-container {
-  margin: 3rem;
-  border: 1px solid black;
+  margin: 5rem 8rem;
+  /* border: 1px solid black; */
   font-family: Manrope;
 }
 .top-hero .head p {
   font-family: Covered By Your Grace;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 500;
   line-height: 39.6px;
   /* letter-spacing: -0.02em; */
@@ -16,20 +16,19 @@
 }
 .top-hero .heading p {
   font-family: Manrope;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 600;
   text-align: center;
   color: #1c1c1c;
-  margin: 0;
   letter-spacing: -0.02em;
   width: 28rem;
   margin: 0 auto;
   line-height: 1.2;
 }
 .bottom-hero {
-  margin-top: 4rem;
+  margin: 5rem auto;
   display: flex;
-  justify-content: space-around;
+  gap: 10rem;
 }
 /* .image{
     border: 2px solid yellow;
@@ -37,21 +36,21 @@
     height: 540px;
 } */
 .image img {
-  width: 22.8rem;
-  height: 23.8rem;
+  width: 21rem;
+  height: 22.2rem;
   border-radius: 30px;
   position: relative;
-  margin-left: 5rem;
+  margin-left: 14rem;
   z-index: 1;
 }
 
 .box-percent {
   /* border: 1px solid red; */
   position: absolute;
-  top: 25.6rem;
-  left: 9.6rem;
-  width: 12.6rem;
-  height: 10.4rem;
+  top: 28rem;
+  left: 15rem;
+  width: 11.6rem;
+  height: 9.4rem;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
@@ -59,34 +58,35 @@
 }
 .box-percent h5 {
   font-size: 32px;
-  margin: 14px 24px;
+  margin: 16px 24px;
   margin-bottom: 10px;
-  font-family: Open Sans;
+  font-family: Public Sans;
   font-weight: 600;
 }
 .box-percent p {
   color: #828282;
-  font-size: 14px;
-  font-weight: 500;
-  /* line-height: 23.4px; */
+  font-size: 12px;
+  font-weight: 600;
   text-align: left;
-  width: 10rem;
-  margin: 0 24px;
+  width: 9rem;
+  margin: 2px 24px;
+  font-family: Manrope;
+  letter-spacing: 0.3px;
 }
 
 .days-box {
-  /* border: 1px solid blue; */
   position: absolute;
-  top: 39.6rem;
-  left: 14rem;
+  top: 40.6rem;
+  left: 19.2rem;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-evenly; */
   background-color: #ffffff;
   border-radius: 50px;
   box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
   z-index: 2;
-  width: 11.2rem;
-  height: 3.8rem;
+  width: 10.8rem;
+  height: 3.4rem;
+  gap: 10px;
 }
 .days-box i {
   color: #2da950;
@@ -96,26 +96,68 @@
   height: 20px;
   font-size: 18px;
   padding: 8px;
+  margin-left: 12px;
 }
 .text h4 {
   margin: 0;
-  margin-top: 6px;
-  font-weight: 800;
+  margin-top: 8px;
+  font-weight: 700;
   color: #1c1c1c;
   font-size: 18px;
+  font-family: Public Sans;
 }
 .text p {
-  font-size: 14px;
-  margin: 0;
   color: #828282;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  font-family: Manrope;
+  letter-spacing: 0.3px;
 }
-
 .doller-box {
-  border: 1px solid black;
-  width: 10rem;
+  /* border: 1px solid black; */
+  width: 11.8rem;
+  height: 9.4rem;
   position: absolute;
+  left: 34.8rem;
+  top: 38rem;
+  z-index: 2;
+  background: #002e18;
+  color: #ffffff;
+  box-shadow: 0px 23.63px 37.81px 0px #1e1e1e17;
+  border-radius: 20px;
 }
-
+.value {
+  text-align: center;
+}
+.value span {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-family: Public Sans;
+  font-weight: 500;
+  color: #ffffff;
+  margin-right: 2px;
+}
+.value {
+  margin: 22px 0px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #a6a3a0;
+  /* letter-spacing: 0.01em; */
+  font-family: Public Sans;
+}
+.doller-box p {
+  color: #cccccc;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  width: 10rem;
+  margin: 0 auto;
+  margin-left: 23px;
+  letter-spacing: 0.3px;
+  font-family: Manrope;
+}
 .right p {
   font-family: Manrope;
   font-size: 26px;
@@ -123,14 +165,15 @@
   color: #1c1c1c;
   margin: 0;
   letter-spacing: -0.02em;
-  width: 19rem;
-  margin: 0 auto;
+  width: 17rem;
+  margin: 2.2rem auto;
+  margin-bottom: 0;
   line-height: 1.2;
   text-align: left;
 }
 .dots {
-  margin-top: 2.6rem;
-  font-size: 1.2rem;
+  margin-top: 2.2rem;
+  font-size: 1rem;
 }
 .green-dot {
   color: #2da950;
@@ -154,7 +197,7 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
-  margin: 5rem 0;
+  margin: 4.6rem 0;
 }
 .explore-btn i {
   margin-top: 8px;

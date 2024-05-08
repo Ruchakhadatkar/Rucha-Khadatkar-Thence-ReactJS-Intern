@@ -14,6 +14,7 @@ footer {
 .left-footer {
   display: flex;
   margin: auto 3rem;
+  font-family: Manrope;
 }
 .left-footer i {
   font-size: 16px;
@@ -25,6 +26,7 @@ footer {
   margin: auto 3rem;
   display: flex;
   gap: 2rem;
+  font-family: Manrope;
 }
 .right-footer p,
 a {
