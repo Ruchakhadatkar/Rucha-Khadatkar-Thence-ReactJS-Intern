@@ -15,6 +15,7 @@
 }
 .close {
   margin-top: 5px;
+  cursor: pointer;
 }
 .nav i {
   text-align: center;
@@ -46,7 +47,7 @@ form {
   color: #1c1c1c;
   margin: 0;
   letter-spacing: -0.02em;
-  width: 21rem;
+  width: 22rem;
   margin: 0 auto;
   line-height: 1.2;
 }
@@ -84,4 +85,25 @@ button {
   outline: none;
   font-size: 16px;
   margin: auto;
+  cursor: pointer;
+}
+.error {
+  color: #ff0808;
+  display: flex;
+  justify-content: left;
+  margin: 0 36.6rem;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.inputs i {
+  margin-top: 2px;
+}
+input:hover {
+  border: 1px solid #537ff1;
+  background: #f5f8ff;
+  color: #000000;
+}
+button.enabled {
+  background-color: #1c1c1c;
 }

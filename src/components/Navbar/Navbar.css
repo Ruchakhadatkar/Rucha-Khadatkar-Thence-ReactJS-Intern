@@ -44,6 +44,10 @@
   background: #ffffff;
   border-radius: 50px;
   color: #1c1c1c;
+  cursor: pointer;
+}
+.get-projects-btn:hover{
+  background-color: #EAEAEA;
 }
 .onboard-btn {
   border: 1px solid black;
@@ -57,4 +61,8 @@
   border-radius: 50px;
   background: #1c1c1c;
   color: white;
+  cursor: pointer;
+}
+.onboard-btn:hover{
+  background-color: #4E4E4E;
 }

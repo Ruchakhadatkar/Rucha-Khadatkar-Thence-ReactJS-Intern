@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./SucessPage.css";
 import brunelimg from "../../Assets/brunel-name.png";
-import checkBox from "../../Assets/chech-box.webp"
+import checkBox from "../../Assets/chech-box.webp";
+import { useNavigate } from "react-router-dom";
 
 const SuccessPage = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      navigate("/");
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, [navigate]);
+
   return (
     <div className="sucess-container">
       <div className="nav">
-        <img src={brunelimg} alt="" />
+        <img src={brunelimg} alt="name" />
       </div>
       <div className="main-container">
         <img src={checkBox} alt="sucess-info" />

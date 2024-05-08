@@ -198,8 +198,15 @@
   align-items: center;
   gap: 5px;
   margin: 4.6rem 0;
+  cursor: pointer;
+}
+.explore-btn:hover{
+  background-color: #4E4E4E;
 }
 .explore-btn i {
   margin-top: 8px;
   font-size: 18px;
+}
+.gray-dot:hover{
+  color: #CAD0CB;
 }
