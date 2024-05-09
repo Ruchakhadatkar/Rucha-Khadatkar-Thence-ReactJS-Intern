@@ -12,7 +12,6 @@
 }
 .left-side {
   width: 46%;
-  /* height: 111px; */
 }
 .top-left {
   font-family: Covered By Your Grace;
@@ -30,7 +29,6 @@
   font-family: Manrope;
   font-size: 40px;
   font-weight: 600;
-  /* line-height: 66px; */
   letter-spacing: -0.01em;
   text-align: left;
   color: #1c1c1c;
@@ -38,17 +36,14 @@
 }
 .right-side {
   width: 54%;
-  /* height: 538px; */
   opacity: 0px;
   margin: 5rem;
   margin-bottom: 3rem;
-  /* padding: 1rem 2rem; */
 }
 .question {
   display: flex;
   justify-content: space-between;
 }
-
 .question p {
   font-family: Manrope;
   font-size: 16px;
@@ -78,6 +73,6 @@
 hr {
   color: #d7d7d7;
   opacity: 0.5;
-  margin-top: 0.8rem;
+  margin-top: 4px;
   margin-bottom: 1.2rem;
 }

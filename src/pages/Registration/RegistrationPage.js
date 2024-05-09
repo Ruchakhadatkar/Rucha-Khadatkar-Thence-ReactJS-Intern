@@ -41,14 +41,6 @@ const RegistrationPage = () => {
       formErrors.email = "";
     }
 
-    // if (!name) {
-    //   formErrors.name = "Name is required";
-    // } else if (name.length < 2) {
-    //   formErrors.name = "Name is too short";
-    // } else {
-    //   formErrors.name = "";
-    // }
-
     return formErrors;
   };
 

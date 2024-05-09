@@ -9,12 +9,10 @@
   text-align: left;
   padding: 2.4rem 3.8rem;
 }
-
 .nav img {
   height: 28px;
   /* width: 116px; */
 }
-
 .main-container {
   text-align: center;
   margin-top: 5.6rem;
@@ -28,7 +26,6 @@
   font-size: 30px;
   font-weight: 500;
   line-height: 39.6px;
-  /* letter-spacing: -0.02em; */
   color: #2da950;
   margin-top: 1.8rem;
   margin-bottom: 0;

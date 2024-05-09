@@ -8,7 +8,6 @@
   font-size: 26px;
   font-weight: 500;
   line-height: 39.6px;
-  /* letter-spacing: -0.02em; */
   color: #2da950;
   margin-top: 1rem;
   margin-bottom: 0;
@@ -30,11 +29,6 @@
   display: flex;
   gap: 10rem;
 }
-/* .image{
-    border: 2px solid yellow;
-    width: 506px;
-    height: 540px;
-} */
 .image img {
   width: 21rem;
   height: 22.2rem;
@@ -73,7 +67,6 @@
   font-family: Manrope;
   letter-spacing: 0.3px;
 }
-
 .days-box {
   position: absolute;
   top: 40.6rem;

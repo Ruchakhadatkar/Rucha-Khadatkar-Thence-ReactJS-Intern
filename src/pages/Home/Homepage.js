@@ -9,7 +9,7 @@ const Homepage = () => {
   return (
     <div className="Home-container">
       <Navbar />
-      <HeroSection/>
+      <HeroSection />
       <AskQuestions />
       <Footer />
     </div>
