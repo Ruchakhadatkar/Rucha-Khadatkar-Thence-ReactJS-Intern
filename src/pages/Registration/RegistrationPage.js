@@ -84,7 +84,7 @@ const RegistrationPage = () => {
 
           <input
             type="email"
-            placeholder="Enter Email"
+            placeholder="Enter your email"
             name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
