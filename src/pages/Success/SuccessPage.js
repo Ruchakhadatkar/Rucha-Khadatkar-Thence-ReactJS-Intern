@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./SucessPage.css";
 import brunelimg from "../../Assets/brunel-name.png";
-import checkBox from "../../Assets/chech-box.webp";
+import checkBox from "../../Assets/check-box.webp";
 import { useNavigate } from "react-router-dom";
 
 const SuccessPage = () => {
