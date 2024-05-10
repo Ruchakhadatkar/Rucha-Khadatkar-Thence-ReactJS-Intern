@@ -1,7 +1,6 @@
 .container-registration {
   width: 1440px;
   height: 800px;
-  opacity: 0px;
   background-color: #ffffff;
   font-family: Manrope;
 }
@@ -62,7 +61,6 @@ input {
   width: 16.4rem;
   height: 3.2rem;
   gap: 0px;
-  opacity: 0px;
   color: #827a7a;
   border-radius: 50px;
   border: none;
@@ -78,7 +76,7 @@ button {
   width: 17rem;
   height: 3.2rem;
   gap: 0px;
-  opacity: 0px;
+  /* opacity: 0px; */
   color: #ffffff;
   border-radius: 50px;
   border: none;

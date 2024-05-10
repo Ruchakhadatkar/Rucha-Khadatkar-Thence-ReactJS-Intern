@@ -14,13 +14,13 @@
 .brand-name {
   width: 127.94px;
   height: 47.39px;
-  opacity: 0px;
+  /* opacity: 0px; */
 }
 
 .brand-name img {
   /* width: 121px; */
   height: 24px;
-  opacity: 0px;
+  /* opacity: 0px; */
   color: black;
   padding-top: 0.6rem;
   margin-left: 1.2rem;

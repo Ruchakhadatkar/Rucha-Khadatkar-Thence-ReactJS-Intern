@@ -5,7 +5,7 @@
   margin-bottom: 3rem;
   gap: 0px;
   border-radius: 2rem;
-  opacity: 0px;
+  /* opacity: 0px; */
   background: #e8eee7;
   display: flex;
   font-family: Manrope;
@@ -36,7 +36,7 @@
 }
 .right-side {
   width: 54%;
-  opacity: 0px;
+  /* opacity: 0px; */
   margin: 4rem;
   margin-bottom: 3rem;
 }

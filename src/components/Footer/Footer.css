@@ -4,7 +4,7 @@ footer {
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
-  opacity: 0px;
+  /* opacity: 0px; */
   background: #f5f5f5;
   margin: 0 1.4rem;
   text-align: center;
