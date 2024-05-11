@@ -3,7 +3,8 @@
   height: 800px;
   gap: 0px;
   /* opacity: 0px; */
-  background: #ffffff;
+  background: #fff;
   /* border: 1px solid black; */
   font-family: Manrope;
+  margin: auto;
 }
