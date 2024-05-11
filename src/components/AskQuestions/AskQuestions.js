@@ -9,7 +9,14 @@ const AskQuestions = () => {
       <div className="left-side">
         <p className="top-left">What's on your mind</p>
         <p className="heading-left">Ask Questions</p>
-        <div className="arrow-container"></div>
+        <div className="arrow-container">
+          {/* <i className="first-vector">
+            < TbCurrencyLeu className="vector" />
+          </i>
+          <i>
+            <FaWindowMinimize  className="union" />
+          </i> */}
+        </div>
       </div>
       <div className="right-side">
         <div className="question">

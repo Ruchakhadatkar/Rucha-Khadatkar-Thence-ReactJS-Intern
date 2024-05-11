@@ -1,17 +1,19 @@
 .askQuestion-container {
   /* width: 1376px; */
-  /* height: 600px; */
+  height: 566px;
   margin: 2rem 1.4rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.4rem;
   gap: 0px;
   border-radius: 2rem;
-  /* opacity: 0px; */
   background: #e8eee7;
   display: flex;
   font-family: Manrope;
+  position: relative;
 }
 .left-side {
-  width: 46%;
+  width: 44%;
+  position: relative;
+  height: 480px;
 }
 .top-left {
   font-family: Covered By Your Grace;
@@ -35,10 +37,10 @@
   margin: 0 7rem;
 }
 .right-side {
-  width: 54%;
-  /* opacity: 0px; */
+  width: 56%;
   margin: 4rem;
   margin-bottom: 3rem;
+  margin-right: 5rem;
 }
 .question {
   display: flex;
@@ -65,7 +67,7 @@
 }
 .ques-ans {
   display: flex;
-  gap: 1rem;
+  gap: 2.9rem;
 }
 .ques-ans i {
   font-size: 14px;
@@ -76,3 +78,4 @@ hr {
   margin-top: 4px;
   margin-bottom: 1.2rem;
 }
+

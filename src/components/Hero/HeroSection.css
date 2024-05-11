@@ -1,5 +1,5 @@
 .hero-container {
-  margin: 5rem 8rem;
+  margin: 4rem 8rem;
   /* border: 1px solid black; */
   font-family: Manrope;
 }
@@ -37,7 +37,6 @@
   margin-left: 14rem;
   z-index: 1;
 }
-
 .box-percent {
   /* border: 1px solid red; */
   position: absolute;
@@ -193,13 +192,13 @@
   margin: 4.6rem 0;
   cursor: pointer;
 }
-.explore-btn:hover{
-  background-color: #4E4E4E;
+.explore-btn:hover {
+  background-color: #4e4e4e;
 }
 .explore-btn i {
   margin-top: 8px;
   font-size: 18px;
 }
-.gray-dot:hover{
-  color: #CAD0CB;
+.gray-dot:hover {
+  color: #cad0cb;
 }

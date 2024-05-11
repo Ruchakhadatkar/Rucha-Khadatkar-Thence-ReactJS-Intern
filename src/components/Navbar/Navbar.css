@@ -10,28 +10,22 @@
   margin-top: 1.4rem;
   gap: 55rem;
 }
-
 .brand-name {
   width: 127.94px;
   height: 47.39px;
-  /* opacity: 0px; */
 }
-
 .brand-name img {
   /* width: 121px; */
   height: 24px;
-  /* opacity: 0px; */
   color: black;
   padding-top: 0.6rem;
   margin-left: 1.2rem;
 }
-
 .button-list {
   display: flex;
   gap: 0.5rem;
   margin-left: 3rem;
 }
-
 .get-projects-btn {
   border: 1px solid #eaeaea;
   font-family: Manrope;
